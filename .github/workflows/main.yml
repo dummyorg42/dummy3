@@ -5,7 +5,7 @@ on:
     types: [ opened, labeled, unlabeled ]
   
 jobs:
-  create-pr:
+  push-to-central:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
