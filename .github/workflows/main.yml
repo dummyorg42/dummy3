@@ -15,4 +15,4 @@ jobs:
       - run: git config user.email thibault.duponchelle@gmail.com
       - run: git config user.name "Thibault DUPONCHELLE"
       - run: git commit -m "Bump!" README.md
-      - run: git push https://thibaultduponchelle:${{ secrets.GITHUB_TOKEN }}@github.com/dummyorg42/dummy3.git
+      - run: git push https://thibaultduponchelle:${{ secrets.TOKEN }}@github.com/dummyorg42/dummy3.git
