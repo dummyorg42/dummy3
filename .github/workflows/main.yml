@@ -1,6 +1,8 @@
 name: Push to central
-on: 
+on:
   push:
+  pull_request:
+    types: [ opened, labeled, unlabeled ]
   
 jobs:
   create-pr:
